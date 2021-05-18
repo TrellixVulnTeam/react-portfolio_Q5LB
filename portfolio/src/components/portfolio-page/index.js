@@ -1,19 +1,24 @@
 import React from "react";
+import NoteTaker from "../img/NoteTaker.png";
+import EMS from "../img/EMS.png";
+import JabEffects from "../img/JabEffects.png";
+import ReadMeGen from "../img/ReadMeGenerator.png";
+import { Link, useLocation } from "react-router-dom";
 
 export default function PortfolioPage() {
   return (
     <div>
-      <nav class="nav justify-content-center">
-        <a class="nav-link active" href="../index.html">
+      <nav className="nav justify-content-center">
+        <Link className="nav-link active" to="/">
           Home
-        </a>
+        </Link>
         <a class="nav-link" href="">
           Portfolio
         </a>
       </nav>
 
       <div class="jumbotron bg-secondary-600">
-        <h1 class="display-3 float-end">E.A. Martinez</h1>
+        <h1 class="display-3">E.A. Martinez</h1>
         <p class="lead">Full-Stack Web Developer | MERN</p>
         <hr class="my-2" />
         <p>Project Portfolio</p>
@@ -28,7 +33,7 @@ export default function PortfolioPage() {
                 target="_blank"
               >
                 <img
-                  src="../assets/img/NoteTaker.png"
+                  src={NoteTaker}
                   width="600"
                   alt=""
                   class="im-fluid rounded mx-auto d-block"
@@ -41,7 +46,7 @@ export default function PortfolioPage() {
                 target="_blank"
               >
                 <img
-                  src="../assets/img/EMS.png"
+                  src={EMS}
                   alt="Employee Management System"
                   class="img-fluid rounded mx-auto d-block"
                 />
@@ -57,7 +62,7 @@ export default function PortfolioPage() {
             <div class="col-sm">
               <a href="https://jab-effects.herokuapp.com/" target="_blank">
                 <img
-                  src="../assets/img/JabEffects.png"
+                  src={JabEffects}
                   height="400"
                   width="500"
                   alt=""
@@ -71,7 +76,7 @@ export default function PortfolioPage() {
                 target="_blank"
               >
                 <img
-                  src="../assets/img/ReadMeGenerator.png"
+                  src={ReadMeGen}
                   height="4000"
                   alt=""
                   class="img-fluid rounded mx-auto d-block"
