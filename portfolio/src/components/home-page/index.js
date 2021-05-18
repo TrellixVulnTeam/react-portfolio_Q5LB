@@ -8,7 +8,7 @@ export default function HomePage() {
         <a className="nav-link active" href="#">
           Home
         </a>
-        <a className="nav-link" href="./portfolio">
+        <a className="nav-link" href="/portfolio">
           Portfolio
         </a>
       </nav>
