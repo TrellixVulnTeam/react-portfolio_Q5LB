@@ -9,7 +9,7 @@ export default function PortfolioPage() {
   return (
     <div>
       <nav className="nav justify-content-center">
-        <a className="nav-link active" href="/">
+        <a className="nav-link active" href="#">
           Home
         </a>
         <a class="nav-link" href="">
