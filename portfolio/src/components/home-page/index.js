@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div>
       <nav className="nav justify-content-center">
-        <a className="nav-link active" href="#">
+        <a className="nav-link active" href="#/react-portfolio">
           Home
         </a>
         <a className="nav-link" href="#portfolio">
