@@ -3,15 +3,15 @@ import NoteTaker from "../img/NoteTaker.png";
 import EMS from "../img/EMS.png";
 import JabEffects from "../img/JabEffects.png";
 import ReadMeGen from "../img/ReadMeGenerator.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function PortfolioPage() {
   return (
     <div>
       <nav className="nav justify-content-center">
-        <Link className="nav-link active" to="/">
+        <a className="nav-link active" href="/">
           Home
-        </Link>
+        </a>
         <a class="nav-link" href="">
           Portfolio
         </a>
